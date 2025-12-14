@@ -24,7 +24,7 @@ server.use(express.urlencoded({ extended: true }));
 
 
 server.get('/', (req, res) => {
-  res.json({ message: 'Backend API running 🚀' });
+  res.json({ message: 'Backend API running ' });
 });
 
 
